@@ -6,6 +6,8 @@ This is a small app I assembled in Python for fun to transcribe tabletop RPG-ses
 
 The app automatically downloads the model you selected (there's three options) on your machine's local storage if it cannot find them. Note that this does mean the app requires some free storage space. Once those are downloaded, the app can run without access to the internet. You download them by simply selecting them in the sidebar of the app's UI. 
 
+The easiest way to create new transcripts if you've already created one is to refresh the page. A 'clear-transcription'-button turned out to be surprisingly hard to make. 
+
 Have fun with it!
 
 ## Getting started
@@ -17,6 +19,7 @@ Use the following steps:
 5. Run the app: ```streamlit run OnionTalks.py```
 6. Have fun! ```python run good_times.p... wait no.```
 
+It is possible to create a local executable .exe-file to run the app on Windows using [pyinstaller](https://pyinstaller.org/en/stable/). run_OnionTalks.py is added as a setup for you to do so. It isn't easy and takes quite a bit of tinkering and trial-and-error, but I have succeeded at doing so at some point. It does so by making OnionTalks.py runnable directly from a ```python run```-command instead of having to use ```streamlit run```.  
 
 ## Credits
 [Streamlit](https://streamlit.io/) is a great tool for assembling UI's quickly and easily in Python. It is what was used to create this application.
