@@ -11,10 +11,7 @@ Have fun with it!
 ## Getting started
 Use the following steps:
 1. Clone this repository
-2. Create a fresh Python Environment running on a semi-recent Python-version. I used Python verison 3.11. I like to use [Anaconda](https://www.anaconda.com/):
-```
-conda create --name oniontalks python=3.11
-```
+2. Create a fresh Python Environment running on a semi-recent Python-version. I used Python verison 3.11. I like to use [Anaconda](https://www.anaconda.com/): ```conda create --name oniontalks python=3.11```
 3. 
 
 
