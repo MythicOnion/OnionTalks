@@ -22,5 +22,5 @@ Use the following steps:
 It is possible to create a local executable .exe-file to run the app on Windows using [pyinstaller](https://pyinstaller.org/en/stable/). run_OnionTalks.py is added as a setup for you to do so. It isn't easy and takes quite a bit of tinkering and trial-and-error, but I have succeeded at doing so at some point. It does so by making OnionTalks.py runnable directly from a ```python run```-command instead of having to use ```streamlit run```.  
 
 ## Credits
-[Streamlit](https://streamlit.io/) is a great tool for assembling UI's quickly and easily in Python. It is what was used to create this application.
-[Whisper's OpenAI](https://github.com/openai/whisper) is both the name of the variety of models and the package used to service them to do what the app -well- does: transcribing audio. Huge credits to their easy-to-use library and free access to models. 
+- [Streamlit](https://streamlit.io/) is a great tool for assembling UI's quickly and easily in Python. It is what was used to create this application.
+- [Whisper's OpenAI](https://github.com/openai/whisper) is both the name of the variety of models and the package used to service them to do what the app -well- does: transcribing audio. Huge credits to their easy-to-use library and free access to models. 
