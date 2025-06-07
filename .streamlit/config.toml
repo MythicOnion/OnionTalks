@@ -1,0 +1,9 @@
+[theme]
+primaryColor = "#32CD32"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+port = 1337
+

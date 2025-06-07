@@ -10,9 +10,12 @@ Have fun with it!
 
 ## Getting started
 Use the following steps:
-1. Clone this repository
-2. Create a fresh Python Environment running on a semi-recent Python-version. I used Python verison 3.11. I like to use [Anaconda](https://www.anaconda.com/): ```conda create --name oniontalks python=3.11```
-3. 
+1. Open a command line terminal
+2. Clone this repository
+3. Create a fresh Python Environment running on a semi-recent Python-version. I used Python verison 3.11. I like to use [Anaconda](https://www.anaconda.com/): ```conda create --name oniontalks python=3.11```, but venvs or other alternatives should work just as well.
+4. Activate it: ```conda activate oniontalks```
+5. Run the app: ```streamlit run OnionTalks.py```
+6. Have fun! ```python run good_times.p... wait no.```
 
 
 ## Credits
