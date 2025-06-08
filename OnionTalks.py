@@ -132,6 +132,13 @@ def main():
         st.session_state.transcript_display_area.empty()
         st.rerun()
 
+    # :D
+    st.sidebar.write("---")
+    uploaded_audio = st.sidebar.file_uploader("Have an existing audio-file that you want transcribed? Upload it here.")
+    if uploaded_audio is not None:
+        audio_data = uploaded_audio.read()
+        process_and_transcribe_buffer(model, audio_data, debug_mode, debug_log_display_area)
+    
     # Display the transcript
     st.session_state.transcript_display_area.markdown(
         st.session_state.transcript if st.session_state.transcript else "*No transcription yet.*"
